@@ -17,7 +17,7 @@ services:
   app_maven:
     depends_on:
       - mysqldb
-    image: khaledbalti/ExamThorayaS2
+    image: khaledbalti/examv2thouraya
     container_name: khaledbalti
     restart: on-failure
     ports:
